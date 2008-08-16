@@ -5,18 +5,18 @@
 
 Summary:	%{_pearname} - methods for creating, validating, processing HTML forms
 Name:		php-pear-%{_pearname}
-Version:	3.2.7
-Release:	%mkrel 3
+Version:	3.2.10
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/HTML_QuickForm/
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The PEAR::HTML_QuickForm package provides methods for creating,
