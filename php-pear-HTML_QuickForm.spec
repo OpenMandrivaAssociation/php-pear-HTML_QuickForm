@@ -5,8 +5,8 @@
 
 Summary:	%{_pearname} - methods for creating, validating, processing HTML forms
 Name:		php-pear-%{_pearname}
-Version:	3.2.10
-Release:	%mkrel 2
+Version:	3.2.11
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
