@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	3.2.13
-Release:	1
+Release:	2
 Summary:	Methods for creating, validating, processing HTML forms
 License:	PHP License
 Group:		Development/PHP
