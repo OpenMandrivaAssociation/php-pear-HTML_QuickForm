@@ -4,8 +4,8 @@
  
 Summary:	Methods for creating, validating, processing HTML forms
 Name:		php-pear-%{modname}
-Version:	3.2.13
-Release:	8
+Version:	3.2.14
+Release:	1
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/HTML_QuickForm/
@@ -50,4 +50,3 @@ install -m 644 %{modname}.xml %{buildroot}%{_datadir}/pear/packages
 %doc %{modname}-%{version}/docs/*
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{modname}.xml
-
