@@ -8,7 +8,7 @@ Version:	3.2.14
 Release:	3
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/HTML_QuickForm/
+Url:		https://pear.php.net/package/HTML_QuickForm/
 Source0:	http://download.pear.php.net/package/HTML_QuickForm-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
